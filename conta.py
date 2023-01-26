@@ -14,6 +14,7 @@ class Conta:
     @property
     def nome(self):
         return  self.__nome
+
     @nome.setter
     def nome(self, value):
         self.__nome = value
@@ -21,6 +22,7 @@ class Conta:
     @property
     def email(self):
         return self.__email
+
     @email.setter
     def email(self, value):
         self.__email = value
@@ -28,6 +30,7 @@ class Conta:
     @property
     def senha(self):
         return self.__senha
+
     @senha.setter
     def senha(self, value):
         self.__senha = value
@@ -35,6 +38,7 @@ class Conta:
     @property
     def qtd_max_telas(self):
         return self.__qtd_max_telas
+
     @qtd_max_telas.setter
     def qtd_max_telas(self, value):
         self.__qtd_max_telas = value
@@ -42,6 +46,7 @@ class Conta:
     @property
     def plano(self):
         return self.__plano
+
     @plano.setter
     def plano(self, value):
         self.__plano = value
@@ -49,6 +54,7 @@ class Conta:
     @property
     def telas(self):
         return self.__telas
+
     @telas.setter
     def telas(self, value):
         self.__telas.append(value)
@@ -56,6 +62,7 @@ class Conta:
     @property
     def telas_logadas(self):
         return self.__telas_logadas
+
     @telas_logadas.setter
     def telas_logadas(self, value):
         self.__telas_logadas = value
@@ -63,6 +70,7 @@ class Conta:
     @property
     def logado(self):
         return self.__logado
+
     @logado.setter
     def logado(self, value):
         self.__logado = value
@@ -70,6 +78,7 @@ class Conta:
     @property
     def favoritos(self):
         return self.__favoritos
+
     @favoritos.setter
     def favoritos(self, value):
         self.__favoritos.append(value)
